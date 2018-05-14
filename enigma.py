@@ -10,7 +10,7 @@ def P(my_date, keys):
 
 def S(my_date):
 	matrix = [["a","d"  ,  "c","b"  ]
-			, ["d","a"  ,"  b","c"  ]]
+		, ["d","a"  ,"  b","c"  ]]
 	new = []
 	my_date = ''.join(my_date)
 	for part in my_date:
